@@ -1,0 +1,65 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenCheck"
+
+# Tutaj mozna ustawic wiadomosc o braku permisji:
+brak_permisji: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc o graczu offline:
+offline_player: "&8>> &cNie ma takiego gracza na serwerze!"
+
+# Tutaj mozna ustawic wiadomosc o ustawionej klatce do sprawdzania graczy:
+jail_setup: "&8>> &aPomyslnie ustawiono klatke do sprawdzania!"
+
+# Tutaj mozna ustawic wiadomosc o ustawionym spawnie:
+spawn_setup: "&8>> &aPomyslnie ustawiono spawn! Teraz gracze beda sie teleportowac tutaj, gdy administracja skonczy sprawdzac graczy!"
+
+# Tutaj mozna ustawic wiadomosc o poprawnym uzyciu komendy /sprset:
+sprset_usage: "&8>> &7Poprawne uzycie&8: &b/sprset (klatka/spawn)"
+
+# Tutaj mozna ustawic wiadomosc o poprawnym uzyciu dla komendy /sprawdz:
+sprawdz_usage: "&8>> &7Poprawne uzycie&8: &b/sprawdz (gracz/czysty/cheater"
+
+# Tutaj mozna ustawic liste wiadomosci, ktora wysyla sie do sprawdzanego gracza:
+gracz_sprawdzany_klatka:
+  wiadomosci:
+    - '&8>> &b1. Nie logaj!'
+    - '&8>> &b2. Nie utrudniaj administratorowi sprawdzania!'
+
+# Tutaj mozna ustawic wiadomsc do administrartora, gdy sprawdza gracza:
+admin_message_check_player: "&8>> &7Sprawdzasz teraz gracza&8: &b{GRACZ}"
+
+# Tutaj mozna ustawic wiadomosc dla gracza, gdy zostal uznany za czystego:
+gracz_wiadomosc_czysty: "&8>> &aZostales uznany za czystego!"
+
+# Tutaj mozna ustawic wiadomosc, gdy admin uzna gracza za czystego:
+admin_wiadomosc_czysty_gracz: "&8>> &7Uznales gracza&8: &b{GRACZ} &7za czystego!"
+
+# Tutaj mozna ustawic komende, ktora ma zostac wykonana gdy admin uzna jakiegos gracza za cheatera:
+console_command_cheater: "ban {GRACZ} {POWOD}"
+
+# Tutaj mozna ustawic powod bana gdy dany gracz zostanie zbanowany za cheaty:
+reason_ban_cheater: "&8>> &cZostales zbanowany za uzywanie cheatow!"
+
+# Tutaj mozna ustawic wiadomosc do administratora, gdy uzna gracza za cheatera:
+admin_message_cheater: "&8>> &7Uznales gracza&8: &b{GRACZ} &7za &cCheatera."
+
+# Tutaj mozna ustalic liste zablokowanych komend jesli dany gracz jest sprawdzany:
+command_use_manager:
+  cancels:
+    - 'msg'
+    - 'spawn'
+    - 'tell'
+    - 'pl'
+    - 'me'
+
+# Tutaj mozna ustawic wiadomosc jesli dany gracz jest sprawdzany i nie moze uzyc komendy:
+commands_use_cancel_message: "&8>> &cNie mozesz tej komendy uzyc, jestes obecnie sprawdzany!"
+
+# Tutaj mozna ustawic komende ktora ma sie wykonac jesli dany gracz wyloguje sie podczas sprawdzania:
+logout_command_execute: "ban {GRACZ} {POWOD}"
+
+# Tutaj mozna ustawic powod ktory ma sie wyswietlac po wykonanej komendzie, gdy gracz lognie:
+reason_ban_logout: "&8>> &cWylogowales sie podczas sprawdzania!"
+
+# Tutaj mozna wlaczyc informacje o pluginie:
+plugin_info: true

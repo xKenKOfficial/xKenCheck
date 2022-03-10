@@ -1,0 +1,11 @@
+main: x.KenKOfficial.Check.Main.Main
+version: 1.0-Beta
+name: xKenCheck
+author: xKenKOfficial
+description: Plugin autorstwa xKenKOfficial
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  sprawdz:
+    aliases: [spr]
+  sprset:
